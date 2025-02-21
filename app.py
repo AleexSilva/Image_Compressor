@@ -3,7 +3,7 @@ from PIL import Image
 import io
 
 # Set the Streamlit page title
-st.title("Image Compressor (Under 1MB)")
+st.title("Image Compressor (1MB)")
 
 # Upload an image file
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
