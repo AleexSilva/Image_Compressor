@@ -6,7 +6,7 @@ import io
 st.title("Image Compressor (1MB)")
 
 # Upload an image file
-uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Upload an image", type=["jpg", "peg", "png"])
 
 if uploaded_file:
     # Open the image using PIL
